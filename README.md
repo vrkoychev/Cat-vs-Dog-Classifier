@@ -7,9 +7,22 @@ Built with **Streamlit** and deployed on **Streamlit Community Cloud**.
 - Simple UI built with **Streamlit**.
 - Model trained using **Convolutional Neural Networks (CNN)**.
 
-- ## 🛠 Installation
+## 🛠 Installation
 Clone the repository and install dependencies:
 ```sh
 git clone https://github.com/vrkoychev/cat-vs-dog-classifier.git
 cd cat-vs-dog-classifier
 pip install -r requirements.txt
+
+## 🎮 Run the App
+streamlit run app.py
+
+## 📡 Deployment
+This app is deployed on Streamlit Community Cloud
+
+## 📜 License
+This project is licensed under the MIT License.
+
+## 🤝 Contributing
+Pull requests are welcome! Feel free to improve the model or UI.
+
