@@ -10,13 +10,6 @@ model = load_model('Model/cat_vs_dog_model.h5')
 # Streamlit page configuration
 st.set_page_config(page_title="Cat vs Dog Classifier", layout="centered")
 
-# Display the logo at the top
-logo_path = "cat_logo.png"
-
-col1, col2, col3 = st.columns([1, 2, 1])  # Create three columns
-with col2:  # Place the logo in the center column
-    st.image(logo_path, width=300)
-
 # Centered Title
 st.markdown("<h1 style='text-align: center;'>Is it a cat or a dog?</h1>", unsafe_allow_html=True)
 
